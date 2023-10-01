@@ -46,8 +46,8 @@ prog.o: outlib.h
 %.o: %.c
 	$(COMPILE.c) -fPIC $(OUTPUT_OPTION) $<
 
-clean:
+cleantmp:
 	rm -f $(TRASH)
 
-distclean: clean
-	rm -rf $(GENERATES)
+clean: cleantmp
+	rm -f $(GENERATES)
