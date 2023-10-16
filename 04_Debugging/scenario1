@@ -1,0 +1,15 @@
+b 24
+b 28
+
+run 1 12
+
+watch i
+cond 3 (i % 5 == 0)
+
+commands 3
+printf "@@@ %d %d %d %d\n", begin, end, step, i
+continue
+end
+
+continue
+quit

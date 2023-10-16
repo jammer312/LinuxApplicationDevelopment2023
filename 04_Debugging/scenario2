@@ -1,0 +1,18 @@
+b 24
+b 28
+
+run -100 100 3
+
+watch i
+ignore 3 27
+set $timesHit = 0
+cond 3 $timesHit++ < 35
+
+commands 3
+printf "@@@ %d %d %d %d\n", begin, end, step, i
+continue
+end
+
+
+continue 8
+quit
