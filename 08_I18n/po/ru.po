@@ -1,0 +1,45 @@
+# Russian translations for guesser package.
+# Copyright (C) 2023 THE guesser'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the guesser package.
+# jammer312 <example@example.com>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: guesser 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-14 02:42+0300\n"
+"PO-Revision-Date: 2023-11-14 02:43+0300\n"
+"Last-Translator: jammer312 <example@example.com>\n"
+"Language-Team: Russian <gnu@d07.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: src/guesser.c:16
+msgid "Choose a number between 1 and 100:"
+msgstr "Загадайте число от 1 до 100:"
+
+#: src/guesser.c:25
+#, c-format
+msgid "Is chosen number more than %d? (%s/%s)\n"
+msgstr "Загаданное число больше %d? (%s/%s)\n"
+
+#: src/guesser.c:25 src/guesser.c:28
+msgid "yes"
+msgstr "да"
+
+#: src/guesser.c:25 src/guesser.c:30
+msgid "no"
+msgstr "нет"
+
+#: src/guesser.c:33
+msgid "Unrecognized answer."
+msgstr "Ответ не распознан."
+
+#: src/guesser.c:37
+#, c-format
+msgid "Your chosen number is %d\n"
+msgstr "Загаданное вами число - %d\n"
